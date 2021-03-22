@@ -14,7 +14,7 @@ namespace ChatButler
             Console.WriteLine("Type the number for the desired menu option");
             Console.WriteLine("1. Login");
             Console.WriteLine("2. Review");
-            Console.WriteLine("3. some Menu");
+            Console.WriteLine("3. New member");
             Console.WriteLine("4. exit");
 
             string menuInput = Console.ReadLine();
@@ -30,7 +30,7 @@ namespace ChatButler
                     Console.WriteLine("Review Screen");
                     break;
                 case "3":
-                    Console.WriteLine("Some menu");
+                    Console.WriteLine("New member");
                     break;
                 case "4":
                     Console.WriteLine("Exiting");
