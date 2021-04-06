@@ -10,6 +10,8 @@ namespace ChatButler
 
         static void Main(string[] args)
         {
+    
+            
             Console.WriteLine("Welcome" + "\n");
             Console.WriteLine("Type the number for the desired menu option");
             Console.WriteLine("1. Login");
@@ -37,7 +39,8 @@ namespace ChatButler
                     Environment.Exit(0);
                     break;
                 case "sesame":
-                    Console.WriteLine("Hidden Kok Menu");
+                    Console.WriteLine("Chefs Page");
+                    ChefsHiddenPage chefspage = new ChefsHiddenPage();
                     break;
                 default:
                     Console.WriteLine("Input Error");
